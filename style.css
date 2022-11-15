@@ -1,0 +1,42 @@
+body{
+    background-color: #ffcae4;
+}
+
+#ys {
+    font-size: large;
+    float: left;
+    margin-left:10px ;
+}
+
+#timer {
+    font-size: large;
+    float: right;
+    margin-right: 10px;
+}
+
+#drawn {
+    color: red;
+    font-size: larger;
+}
+
+p {
+    font-size: 20px;
+}
+
+span {
+    font-size: 20px;
+}
+
+canvas {
+    margin-top: 70px;
+    border-radius: 5px;
+    animation-name: light;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+}
+
+@keyframes light {
+    from {box-shadow: 1px 1px 38px red}
+    to {box-shadow: 1px 1px 38px purple;}
+    
+}
